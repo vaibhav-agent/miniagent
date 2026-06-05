@@ -64,3 +64,10 @@ def calculator(expression: str) -> str:
 
     except Exception as e:
         return f"Error: {e}"
+
+def notes_lookup(query: str) -> str:
+    try:
+        with open("notes/college.md", "r", encoding="utf-8") as f:
+            return f.read()
+    except Exception as e:
+        return f"Error: {e}"
