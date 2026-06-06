@@ -68,6 +68,15 @@ def calculator(expression: str) -> str:
 def notes_lookup(query: str) -> str:
     try:
         with open("notes/college.md", "r", encoding="utf-8") as f:
-            return f.read()
+            notes = f.read()
+
+        query = query.lower()
+
+        for line in notes.splitlines():
+            if any(word in line.lower() for word in query.split()):
+                return line
+
+        return "No matching note found."
+
     except Exception as e:
         return f"Error: {e}"
