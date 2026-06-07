@@ -102,6 +102,16 @@ $ uv run miniagent "What will Nifty close at tomorrow?"
 4. **It never loops forever.** Maximum 3 tool calls per question, then it answers
    with what it has (or admits it's stuck).
 
+### CLI Output
+
+The agent displays:
+
+- Original question
+- Tool selected
+- Final answer
+- Confidence status
+
+This makes tool selection visible during execution.
 ## 5. Definition of done
 
 You're finished with v1 when *all* of these are true:

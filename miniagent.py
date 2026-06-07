@@ -11,8 +11,9 @@ def main():
 
     result = ask(question)
 
-    print("\nAnswer:", result.answer)
+    print("\nQuestion:", question)
     print("Tool Used:", result.tool_used)
+    print("Answer:", result.answer)
     print("Confident:", result.confident)
 
 
