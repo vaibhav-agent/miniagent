@@ -141,3 +141,6 @@ computer — you are coding for the person who will use this. Decide what their
 experience should be first, agree on it, and then work backwards to build it.
 That habit — customer first, contract first — is the difference between an
 engineer and someone who just makes the computer do things.*
+
+
+Add eval for better results
