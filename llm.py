@@ -66,8 +66,8 @@ def choose_tool(question: str) -> ToolChoice:
 
             return ToolChoice.model_validate_json(text)
 
-        except Exception:
-            pass
+        except Exception as e:
+            print("LLM ERROR:", e)
 
     raise ValueError(
         "Model failed to produce valid ToolChoice"
