@@ -1,2 +1,11 @@
-Physics viva will be on date 12 June at 10:00 AM
-chemistry viva will be on date 13 june at 10:00 AM
+# College Notes
+- Physics viva: 12 June, 10:00 AM, Room 204
+- Maths end-sem: 18 June, 9:00 AM
+- Applied Electronics practical: 20 June, 2:00 PM
+- DSA assignment due: 10 June (submit on portal)
+- Technical Writing report: 14 June
+- Physics: Units 3 and 4 confirmed for viva
+- Maths: Focus on Laplace transforms and Fourier series
+- Electronics: Op-amp circuits, filters
+- Physics HOD: Dr. Sharma, Room 12, available Mon/Wed 11-1
+- Class rep: Aditya — 9876543210
